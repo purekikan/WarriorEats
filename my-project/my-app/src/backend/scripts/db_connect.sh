@@ -1,1 +1,1 @@
-psql -d postgres -U warriors_eats
+psql -d postgres -U warrioreats

@@ -1,10 +1,10 @@
-CREATE ROLE warriors_eats WITH LOGIN PASSWORD '#d&G/Ya4q+nZ';
-ALTER ROLE warriors_eats CREATEDB;
+CREATE ROLE warrioreats WITH LOGIN PASSWORD '#d&G/Ya4q+nZ';
+ALTER ROLE warrioreats CREATEDB;
 
-CREATE DATABASE warriors_eats;
+CREATE DATABASE warrioreats;
 
--- Exit and reconnect to the database using "psql -d postgres -U warriors_eats" before running commands below.
-\c warriors_eats
+-- Exit and reconnect to the database using "psql -d postgres -U warrioreats" before running commands below.
+\c warrioreats
 
 CREATE TABLE eateries (
   ID SERIAL PRIMARY KEY,
