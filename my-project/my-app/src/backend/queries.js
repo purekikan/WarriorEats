@@ -22,7 +22,7 @@ const { PGHOST, PGDATABASE, PGUSER, PGPASSWORD, LOCALPW } = process.env;
 const pool = new Pool({
   user: 'postgres',
   host: 'localhost',
-  database: 'warriors_eats',
+  database: 'warrioreats',
   password: LOCALPW,
   port: 5432,
 });
